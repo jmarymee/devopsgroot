@@ -9,6 +9,7 @@ RUN dotnet restore "WebCore/WebCore.csproj"
 COPY . .
 WORKDIR "/src/WebCore"
 RUN dotnet build "WebCore.csproj" -c Release -o /app
+RUN dotnet test
 
 FROM build AS publish
 RUN dotnet publish "WebCore.csproj" -c Release -o /app
