@@ -27,8 +27,8 @@ ingress:
     kubernetes.io/ingress.class: addon-http-application-routing
     # kubernetes.io/tls-acme: "true"
   path: /
-  # hosts:
-  #   - chart-example.local
+  hosts:
+     - webcore.local
   tls: []
     # - secretName: chart-example-tls
     #   hosts:
