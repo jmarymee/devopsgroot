@@ -5,7 +5,13 @@ VisualStudioVersion = 15.0.28307.271
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebCore", "WebCore\WebCore.csproj", "{4253C12B-79F4-4F7F-B5FF-D56CAFE4D463}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebCoreTest", "WebCoreTest\WebCoreTest.csproj", "{11BB95E0-210B-42AD-8BF9-D77ADCC4F55C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebCoreTest", "WebCoreTest\WebCoreTest.csproj", "{11BB95E0-210B-42AD-8BF9-D77ADCC4F55C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{7B616577-AEE5-401F-8839-9F7E4876748B}"
+	ProjectSection(SolutionItems) = preProject
+		parameters.json = parameters.json
+		template.json = template.json
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
